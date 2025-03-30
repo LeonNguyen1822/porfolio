@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huong Thu Nguyen | Web Developer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Huong Thu (Leon) Nguyen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="theme-switch-wrapper ms-3">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-7">
+                    <div class="hero-text">
+                        <h1>Hi, I'm <span class="highlight">Huong Thu (Leon) Nguyen</span></h1>
+                        <h2 class="mb-4">Full Stack Web Developer</h2>
+                        <p class="lead mb-5">Passionate about creating dynamic and user-friendly websites and applications</p>
+                        <div class="hero-btns">
+                            <a href="#projects" class="btn btn-primary btn-lg me-3">View My Work</a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+                        </div>
+                        <div class="social-icons mt-5">
+                            <a href="https://github.com/LeonNguyen1822" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="mailto:thunguyen180801@gmail.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:0432518898"><i class="fas fa-phone"></i></a>
+                            <a href="https://www.linkedin.com/in/leonnguyen1808/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                    <div class="hero-image">
+                        <img src="assets/profile.jpg" alt="Huong Thu Nguyen" class="img-fluid rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="about-img">
+                        <img src="assets/aboutme.png" alt="About Me" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="about-content">
+                        <p class="lead">Dedicated and enthusiastic web developer with a strong foundation in PHP Programming and valuable experience in both back-end and front-end development.</p>
+                        <p>Passionate about leveraging cutting-edge web technologies to build dynamic and user-friendly websites and applications. Possesses a solid understanding of web development frameworks, database management, and responsive design principles.</p>
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <div class="info-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Balwyn, VIC 3103</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>thunguyen180801@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span>0432 518 898</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fab fa-github"></i>
+                                    <span>LeonNguyen1822</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <a href="assets/HuongThuNguyen_CV.pdf" target="_blank" class="btn btn-primary">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Skills</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Frontend Development</h3>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>HTML5/CSS3</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>JavaScript/jQuery</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Bootstrap</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Tailwind CSS</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Backend Development</h3>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>PHP</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Laravel</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>MySQL</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>MongoDB</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Figma</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Protopie</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Vyond</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Responsive Design</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Work Experience</h2>
+                <div class="line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">01/2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Freelance Full Stack Developer</h3>
+                        <h4>Hikari - Melbourne, Australia</h4>
+                        <h5>Project: Hikari Japanese Restaurant Website - hikaribuffet.com.au</h5>
+                        <ul>
+                            <li>Be the main point of contact for gathering requirements, brainstorming ideas, and proposing solutions.</li>
+                            <li>Designed complete UI/UX using Figma, creating wireframes and interactive prototypes that aligned with the client's Japanese-inspired brand identity.</li>
+                            <li>Developed a restaurant website with custom CMS using PHP/Laravel, enabling independent content management and implemented a modular database architecture with interconnected models.</li>
+                            <li>Built responsive frontend using HTML5, CSS3, Tailwind CSS and JavaScript while reducing page load times by 40% through asset optimization and proper caching implementation.</li>
+                            <li>Successfully configured domain settings, SSL certificates and implemented seamless CI/CD pipelines using GitHub Actions for efficient and automated deployment.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">07/2024 - 11/2024</div>
+                    <div class="timeline-content">
+                        <h3>Intern Web and Animation Developer</h3>
+                        <h4>YEME – Melbourne, Australia</h4>
+                        <h5>Project: YEME website – yeme.com.au</h5>
+                        <ul>
+                            <li>Created 10+ GIF animations with Vyond to make the website more engaging.</li>
+                            <li>Built an interactive prototype with Protopie, mapping 30+ user journey screens.</li>
+                            <li>Updated and maintained the website using WordPress, adding new features such as custom widgets, advanced theme customization, and SEO optimization.</li>
+                            <li>Developed several bespoke WordPress plugins to enhance functionality tailored to client needs.</li>
+                            <li>Designed explainer videos and animations to improve user understanding of services.</li>
+                            <li>Followed Agile development methodologies, participating in daily standups and sprint planning.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">01/2022 - 06/2022</div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Developer</h3>
+                        <h4>Tesla Vietnam – Hanoi, Vietnam</h4>
+                        <h5>Project: Annie E-commerce Website - annies.com</h5>
+                        <ul>
+                            <li>Worked on building and testing UI components using HTML5, CSS3, and jQuery.</li>
+                            <li>Fixed 30+ UI/UX bugs in the e-commerce platform, reducing user complaints by 45% within 2 months.</li>
+                            <li>Assisted in the development of a responsive front-end interface using Bootstrap, leading to a 25% increase in mobile traffic.</li>
+                            <li>Developed scalable back-end solutions using PHP and WordPress.</li>
+                            <li>Contributed to improving website performance by implementing caching and CDN solutions, reducing page load time by 35%.</li>
+                            <li>Supported the integration of 3 third-party payment gateways, enhancing user checkout experience.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">06/2021 - 01/2022</div>
+                    <div class="timeline-content">
+                        <h3>Part Time PHP Developer</h3>
+                        <h4>Tesla Vietnam – Hanoi, Vietnam</h4>
+                        <h5>Project: National ePrescription Management System - donthuocquocgia.vn</h5>
+                        <ul>
+                            <li>Built back-end solutions with PHP and Laravel, and developed 10+ RESTful APIs for seamless data exchange.</li>
+                            <li>Migrated 50,000 medical records to MongoDB with 100% accuracy in a team of 6.</li>
+                            <li>Optimised queries, cutting data retrieval time from 1.5s to under 1s.</li>
+                            <li>Participated in the front-end team to develop dynamic and responsive user interfaces using Bootstrap and jQuery.</li>
+                            <li>Supported deployment and provided technical guidance to stakeholders and end-users.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">01/2021 - 06/2021</div>
+                    <div class="timeline-content">
+                        <h3>Intern Web Developer</h3>
+                        <h4>Tesla Vietnam – Hanoi, Vietnam</h4>
+                        <h5>Project: Oceanshalo Website - oceanshalo.com</h5>
+                        <ul>
+                            <li>Implemented responsive designs using HTML5, CSS3, and Bootstrap while contributing to dynamic content features with jQuery and back-end development with PHP/MySQL.</li>
+                            <li>Improved accessibility (70%→90%) with Figma & Bootstrap; optimised database for 30% faster response.</li>
+                            <li>Created and deployed WordPress plugins and resolved post-deployment issues reported by users within tight timeframes.</li>
+                        </ul>
+                        <h5>Project: Medical Community Network Company Website – medcomm.vn</h5>
+                        <ul>
+                            <li>Designed responsive UI components using Figma and Bootstrap, improving website accessibility scores from 70% to 90%.</li>
+                            <li>Optimised MySQL database configurations, reducing server response times by 30% during peak traffic hours.</li>
+                            <li>Supported and resolved 15 post-deployment issues within a week.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/hikari.png" alt="Hikari Japanese Restaurant" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <h3>Hikari Japanese Restaurant</h3>
+                            <p>A responsive restaurant website with custom CMS built using PHP/Laravel, HTML5, CSS3, Tailwind CSS and JavaScript.</p>
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>Laravel</span>
+                                <span>Tailwind CSS</span>
+                                <span>JavaScript</span>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://dev.hikaribuffet.com.au" target="_blank" class="btn btn-sm btn-primary">View Live</a>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/yeme.png" alt="YEME Website" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <h3>YEME Website</h3>
+                            <p>A WordPress website with custom animations, interactive prototypes, and bespoke plugins for enhanced functionality.</p>
+                            <div class="project-tags">
+                                <span>WordPress</span>
+                                <span>Vyond</span>
+                                <span>Protopie</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Agile</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://yeme.com.au" target="_blank" class="btn btn-sm btn-primary">View Live</a>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/annie.png" alt="Annie E-commerce Website" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <h3>Annie E-commerce Website</h3>
+                            <p>An e-commerce platform with responsive design, optimized performance, and integrated payment gateways.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>jQuery</span>
+                                <span>Bootstrap</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://annies.com" target="_blank" class="btn btn-sm btn-primary">View Live</a>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/eprecription.png" alt="National ePrescription Management System" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <h3>ePrescription System</h3>
+                            <p>A medical records management system with RESTful APIs, optimized database queries, and responsive UI.</p>
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>Laravel</span>
+                                <span>MongoDB</span>
+                                <span>Bootstrap</span>
+                                <span>jQuery</span>
+                                <span>Python</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://donthuocquocgia.vn" target="_blank" class="btn btn-sm btn-primary">View Live</a>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/ocean.png" alt="Oceanshalo Website" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <h3>Oceanshalo Website</h3>
+                            <p>A responsive website with dynamic content features, optimized database, and improved accessibility.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Bootstrap</span>
+                                <span>jQuery</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://oceanshalo.com" target="_blank" class="btn btn-sm btn-primary">View Live</a>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/medcomm.png" alt="Medical Community Network Website" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <h3>Medical Community Network</h3>
+                            <p>A healthcare community website with responsive UI components, optimized database, and improved accessibility.</p>
+                            <div class="project-tags">
+                                <span>Laravel</span>
+                                <span>Figma</span>
+                                <span>Bootstrap</span>
+                                <span>MySQL</span>
+                                <span>PHP</span>
+                                <span>ReactJS</span>
+                            
+                            </div>
+                            <div class="project-links">
+                                <a href="https://medcomm.vn" target="_blank" class="btn btn-sm btn-primary">View Live</a>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-content">
+                            <h3>Bachelor of Computer Science in Data Science</h3>
+                            <h4>Swinburne University of Technology - Melbourne, VIC</h4>
+                            <p class="education-date">08/2021 – 11/2024</p>
+                            <ul>
+                                <li>Swinburne International Scholarship, 2020</li>
+                                <li>GPA: 3.5/4</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="contact-card">
+                        <h3>Get In Touch</h3>
+                        <p>Feel free to contact me for any work or suggestions. I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                        
+                        <div class="contact-icon-wrapper">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <div class="contact-label">Location</div>
+                                <div class="contact-value">Balwyn, VIC 3103, Australia</div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-icon-wrapper">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <div class="contact-label">Email</div>
+                                <div class="contact-value"><a href="mailto:thunguyen180801@gmail.com" style="color: inherit; text-decoration: none;">thunguyen180801@gmail.com</a></div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-icon-wrapper">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <div class="contact-label">Phone</div>
+                                <div class="contact-value"><a href="tel:0432518898" style="color: inherit; text-decoration: none;">0432 518 898</a></div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-icon-wrapper">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div>
+                                <div class="contact-label">GitHub</div>
+                                <div class="contact-value"><a href="https://github.com/LeonNguyen1822" target="_blank" style="color: inherit; text-decoration: none;">LeonNguyen1822</a></div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-icon-wrapper">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div>
+                                <div class="contact-label">LinkedIn</div>
+                                <div class="contact-value"><a href="https://www.linkedin.com/in/leonnguyen1808/" target="_blank" style="color: inherit; text-decoration: none;">Huong Thu (Leon) Nguyen</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-form-card">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="footer-logo">
+                        <h2>Huong Thu Nguyen</h2>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/LeonNguyen1822" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:thunguyen180801@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:0432518898"><i class="fas fa-phone"></i></a>
+                        <a href="https://linkedin.com/in/huongthu-nguyen" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="copyright">
+                        <p>&copy; 2025 Huong Thu Nguyen. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#page-top" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
